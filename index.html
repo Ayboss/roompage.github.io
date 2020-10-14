@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | Room homepage</title>
+  </head>
+  <body>
+    <input type="checkbox" id="nav" class="checkbox" />
+    <div class="mobileNav-box">
+      <div class="mobileNav">
+        <label for="nav">
+          <img src="images/icon-close.svg" class="mobileNav__close" />
+        </label>
+        <a class="mobileNav__link" href="#">home</a>
+        <a class="mobileNav__link" href="#">shop</a>
+        <a class="mobileNav__link" href="#">about</a>
+        <a class="mobileNav__link" href="#">contact</a>
+      </div>
+    </div>
+    <section class="topGrid">
+      <div class="nav">
+        <label for="nav">
+          <svg
+            class="nav__icon"
+            width="20"
+            height="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 12v2H0v-2h20zm0-6v2H0V6h20zm0-6v2H0V0h20z"
+              fill="#FFF"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </label>
+        <div>
+          <span class="nav__logo">room</span>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">home</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">shop</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">about</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="discover">
+        <div class="discover__slider--container">
+          <h1 class="discover__heading">Discover innovative way to decorate</h1>
+          <p class="discover__text">
+            We provide unmatched quality, comfort, and style for property owners
+            across the country. Our experts combine form andnfunction in
+            bringing your vision to life. Create a room in your own style with
+            our collection and make your property a reflection of you and what
+            you love.
+          </p>
+        </div>
+        <button class="discover__button">
+          Shop now
+          <svg
+            class="discover__button--icon"
+            width="40"
+            height="12"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+              fill-rule="nonzero"
+            />
+          </svg>
+        </button>
+        <div class="slider">
+          <div class="slider__box slider__box--left">
+            
+            <img src="images/icon-angle-left.svg" />
+          </div>
+          <div class="slider__box slider__box--right">
+            <img src="images/icon-angle-right.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bottomGrid">
+      <div class="bottomLeft">
+        <img src="./images/image-about-dark.jpg" class="bottomLeft__img" />
+      </div>
+      <div class="bottomCenter">
+        <h3 class="bottomCenter__heading">About our furniture</h3>
+        <p class="bottomCenter__text">
+          Our multifunctional collection blends design and function to suit your
+          individual taste. Make each room unique, or pick a cohesive theme that
+          best express your interests and what inspires you. Find the furniture
+          pieces you need, from traditional to contemporary styles or anything
+          in between. Product specialists are available to help you create your
+          dream space.
+        </p>
+      </div>
+      <div class="bottomRight">
+        <img src="./images/image-about-light.jpg" class="bottomRight__img" />
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
